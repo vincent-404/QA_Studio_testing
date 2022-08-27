@@ -1,0 +1,275 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+,,,,,,,,,,,,,,,,,,,,2,,"Testing ""QA Studio""",1
+,,,,,,,,,,,,,,,,,,,,3,2,"Testing page ""Каталог""",1
+,,,,,,,,,,,,,,,,,,,,3,2,"Testing page ""Каталог""",1
+,,,,,,,,,,,,,,,,,,,,7,3,"Sort testing",1
+,,,,,,,,,,,,,,,,,,,,7,3,"Sort testing",1
+,,,,,,,,,,,,,,,,,,,,8,3,"Filter testing",1
+,,,,,,,,,,,,,,,,,,,,8,3,"Filter testing",1
+,,,,,,,,,,,,,,,,,,,,4,2,"Testing ""Контакты"" tab",1
+,,,,,,,,,,,,,,,,,,,,4,2,"Testing ""Контакты"" tab",1
+,,,,,,,,,,,,,,,,,,,,5,2,"Testing ""Часто задаваемые вопросы"" tab.",1
+,,,,,,,,,,,,,,,,,,,,5,2,"Testing ""Часто задаваемые вопросы"" tab.",1
+,,,,,,,,,,,,,,,,,,,,6,2,"Smoke tests of ""QA Studio"" Web application.",1
+,,,,,,,,,,,,,,,,,,,,6,2,"Smoke tests of ""QA Studio"" Web application.",1
+,,,,,,,,,,,,,,,,,,,,9,2,"Header and Footer testing",1
+,,,,,,,,,,,,,,,,,,,,9,2,"Header and Footer testing",1
+31,"Testing button ""Купить сейчас"" from first slider.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click at button ""Купить сейчас"" at first slider.
+","1. Page
+https://test.qa.studio/?product=%D0%B3%D1%80%D0%B0%D0%B4%D0%B2%D0%B8%D1%81-%D0%BA%D0%B5%D1%80%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%B2%D0%B0%D0%B7%D0%B0-2
+is opened.
+","1. 
+",,,3,2,"Testing page ""Каталог""",
+32,"Testing button ""Купить сейчас"" from second slider.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Switching from first slider to second (Click to transparent dot under button ""Купить сейчас"").
+2. Click at button ""Купить сейчас"".
+","1. Slider switched from first to second.
+2. Page 
+https://test.qa.studio/?product=%d0%bb%d0%b5%d1%80%d0%b3%d1%80%d1%8e%d0%bd-%d0%bf%d0%be%d0%b4%d0%b2%d0%b5%d1%81%d0%bd%d0%be%d0%b9-%d1%81%d0%b2%d0%b5%d1%82%d0%b8%d0%bb%d1%8c%d0%bd%d0%b8%d0%ba
+is opened.
+","1. 
+2. 
+",,,3,2,"Testing page ""Каталог""",
+33,"Testing ""Бестселлеры"" button.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click to ""Бестселлеры"" button.
+","1. Page
+https://test.qa.studio/?products_group=best_sellers
+io opened.
+Items are sorted from most bought to less bought.
+","1. 
+",,,3,2,"Testing page ""Каталог""",
+34,"Testing ""Горячие товары"" button.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click to ""Горячие товары"" button.
+","1. Page 
+https://test.qa.studio/?products_group=featured
+is opened. 
+On this page you can see items with tag ""Горячее"".
+","1. 
+",,,3,2,"Testing page ""Каталог""",
+35,"Testing ""Новые товары"" button.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click to the ""Новые товары"" button.
+","1. Page 
+https://test.qa.studio/?products_group=new
+is opened. On this page you can see items with tag ""Новинка"".
+","1. 
+",,,3,2,"Testing page ""Каталог""",
+36,"Testing ""Распродажа"" button.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click at the ""Распродажа"" button.
+","1. Page
+https://test.qa.studio/?products_group=sale
+is opened. You can see items with tag ""Распродажа"" at this page.
+","1. 
+",,,3,2,"Testing page ""Каталог""",
+37,"Default sort testing.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. position the cursor at the ""По умолчанию"" select button.
+2. Click at the ""Сортировка по умолчанию"" button.
+","1. Sort menu is opened.
+2. Page 
+https://test.qa.studio/?orderby=menu_order
+is opened. We can see ""Сортировка по умолчанию"" filter above the product list.
+","1. 
+2. 
+",,,7,3,"Sort testing",
+38,"Popularity sort testing.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. position the cursor at the ""По умолчанию"" select button.
+2. Click at the ""Сортировать по популярности"" button.
+","1. Sort menu is opened.
+2. Page
+https://test.qa.studio/?orderby=popularity
+is opened. We can see ""Сортировать по популярности"" filter above the product list.
+","1. 
+2. 
+",,,7,3,"Sort testing",
+39,"Rating sort testing.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. position the cursor at the ""По умолчанию"" select button.
+2. Click at the ""Сортировать по среднему рейтингу"" button.
+","1. Sort menu is opened.
+2. Page
+https://test.qa.studio/?orderby=rating
+is opened. We can see ""Сортировать по среднему рейтингу"" filter above the product list.
+","1. 
+2. 
+",,,7,3,"Sort testing",
+40,"Last added sort testing.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. position the cursor at the ""По умолчанию"" select button.
+2. Click at the ""Сортировать по последним"" button.
+","1. Sort menu is opened.
+2. Page
+https://test.qa.studio/?orderby=date
+is opened. We can see ""Сортировать по последним"" filter above the product list.
+","1. 
+2. 
+",,,7,3,"Sort testing",
+41,"Low price sort testing.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. position the cursor at the ""По умолчанию"" select button.
+2. Click at the ""Сортировать по цене: от низкой к высокой"" button.
+","1. Sort menu is opened.
+2. Page
+https://test.qa.studio/?orderby=price
+is opened. We can see ""Сортировать по цене: от низкой к высокой"" filter above the product list.
+","1. 
+2. 
+",,,7,3,"Sort testing",
+42,"High price sort testing.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. position the cursor at the ""По умолчанию"" select button.
+2. Click at the ""Сортировать по цене: по возрастанию"" button.
+","1. Sort menu is opened.
+2. Page
+https://test.qa.studio/?orderby=price-desc
+is opened. We can see ""Сортировать по цене: по возрастанию"" filter above the product list.
+","1. 
+2. 
+",,,7,3,"Sort testing",
+43,"Checking filter using pairwise testing","This test case can be use many times for entering all values that listed in Parvise Filter sort.xlsx file.","Accordeons ""Категория"", ""Интерьер"", ""Кресло"", ""Бренды"", ""Цена"" is opened.",,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Select value at accordeon ""Категория"" that indicated at file ""Parvise Filter sort.xlsx"" at the ""Категория"" column.
+2. Select value at accordeon ""Бренды"" that indicated at file ""Parvise Filter sort.xlsx"" at the ""Бренды"" column.
+3. Select value at accordeon ""Цена"" that indicated at file ""Parvise Filter sort.xlsx"" at the ""Цена"" column.
+4. Click ""Фильтр"" button.
+","1. Checkbox of ""Категория"" parametr from parametrs liist is chosed.
+2. Checkbox of ""Бренды"" parametr from parametrs liist is chosed.
+3. Checkbox of ""Цена"" parametr from parametrs liist is chosed.
+4. Page with items that corresponds our parametrs is opened.If no such items exist, the page displays a notification: ""Товаров, соответствующих вашему запросу, не обнаружено.""
+","1. 
+2. 
+3. 
+4. 
+",,,8,3,"Filter testing",
+8,"Testing accordeon ""Какие сроки выполнения заказа?"".",,,,,low,minor,functional,positive,is-not-automated,actual,no,unit,classic,"1. Page (https://test.qa.studio/?page_id=609) is opened.
+","1. First accordeon with Question ""Какие сроки выполнения заказа?"" is opened.
+","1. 
+",,,5,2,"Testing ""Часто задаваемые вопросы"" tab.",
+9,"Testing accordeon ""Можно ли поставить доп.фурнитуру?""",,,,,low,minor,functional,positive,is-not-automated,actual,no,unit,classic,"1. Click to second accordeon ""Можно ли поставить доп.фурнитуру?"" .
+","1. Accordeon ""Можно ли поставить доп.фурнитуру?"" is opened. You can see text behind it.
+","1. 
+",,,5,2,"Testing ""Часто задаваемые вопросы"" tab.",
+10,"Testing accordeon ""Почему наша мебель дорогая?"".",,,,,low,minor,functional,positive,is-not-automated,actual,no,unit,classic,,,,,,5,2,"Testing ""Часто задаваемые вопросы"" tab.",
+12,"Testing accordeon ""Какие условия по возврату мебели?"".",,,,,low,minor,functional,positive,is-not-automated,actual,no,unit,classic,"1. Page:
+https://test.qa.studio/?page_id=609
+is opened.
+","1. Accordeon ""Какие условия по возврату мебели?"" is opened.
+","1. 
+",,,5,2,"Testing ""Часто задаваемые вопросы"" tab.",
+13,"Testing accordeon ""Есть ли возможность бесплатной доставки?"".",,,,,low,minor,functional,positive,is-not-automated,actual,no,unit,classic,"1. Click to accordeon ""Есть ли возможность бесплатной доставки?"".
+","1. Accordeon ""Есть ли возможность бесплатной доставки?"" is opened. Accordeon ""Какие условия по возврату мебели?"" is closed.
+","1. 
+",,,5,2,"Testing ""Часто задаваемые вопросы"" tab.",
+14,"Testing accordeon ""Каковы условия оплаты?"".",,,,,low,minor,functional,positive,is-not-automated,actual,no,unit,classic,"1. Page
+https://test.qa.studio/?page_id=609
+is opened.
+","1. Accordeon ""Каковы условия оплаты?"" is opened.
+","1. 
+",,,5,2,"Testing ""Часто задаваемые вопросы"" tab.",
+27,"Adding random item and creating the order.","Critical path of user from entering site to creating order.",,,,high,critical,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click at random item in the list of items with status ""В наличии"". For example at ""БРЕДБЕРРИ Комод с ящиками"".
+2. Click at the button ""В корзину""
+3. Click at button ""Оформление заказа"" at popup window.
+4. Input name in the ""Имя"" field.
+5. Input surname in the ""Фамилия"" field.
+6. Select country from ""Страна/регион"" select field.
+7. Input home number and street in ""Номер дома и название улицы"" field.
+8. Input city in the ""Населённый пункт"" field.
+9. Select region from ""Область / район"" select field.
+10. Input Index in ""Почтовый индекc"" field
+11. Input phone number in ""Телефон"" field
+12. Input email in field ""Email"".
+13. Click at the ""Подтвердить заказ"" button
+","1. Page with chosed item is opened.
+2. Item is added to the basket. Appeared popup basket window from the right side.
+3. Page
+https://test.qa.studio/?page_id=10
+is opened.
+4. The system allows you to enter text.
+5. The system allows you to enter text.
+6. Country ""Россия"" is selected.
+7. The system allows you to enter text.
+8. The system allows you to enter text.
+9. Region ""Московская область"" is selected
+10. The system allows you to enter text.
+11. The system allows you to enter text.
+12. The system allows you to enter text.
+13. Order created. Page 
+https://test.qa.studio/?page_id=10&order-received=11765&key=wc_order_cpzAk9kyPnVZF
+is opened.
+","1. 
+2. 
+3. 
+4. John
+5. Biden
+6. ""Россия""
+7. 1A , First str.
+8. Москва
+9. Московская область
+10. 61100
+11. +380111111111
+12. 123@example.com
+13. 
+",,,6,2,"Smoke tests of ""QA Studio"" Web application.",
+15,"Testing button ""Оплата и доставка"".",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click to button ""Оплата и доставка"" at the futter of the page.
+","1. Page 
+https://test.qa.studio/?page_id=546
+is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+16,"Testing ""Политика конфиденциальности"" button .",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click to button ""Политика конфиденциальности"" button at the futter of the page.
+","1. Related page is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+17,"Testing VK button.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click VK button at the futter of the page.
+","1. Page 
+https://vk.com/public212596610
+is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+18,"Testing Instagram button.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click to the Instagram button (It is looks like camera in pink frame) at the futter of the page.
+","1. Page 
+https://www.instagram.com/accounts/login/
+is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+19,"Testing Telegram button.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click at the Telegram button (It is look like paper plane in blue frame) at the futter of the page.
+","1. Page 
+https://t.me/qa_studio
+is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+20,"Testing YouTube button.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click at YouTube button (It is look like player in red frame) at the futter of the page.
+","1. Related page is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+21,"Testing logo clicking.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click at QA Studio logo.
+","1. Page 
+https://test.qa.studio/#
+is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+22,"Testing of the ""Каталог"" tab.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click at the ""Каталог"" tab.
+","1. Page 
+https://test.qa.studio/
+is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+23,"Testing of the""Часто задавамые вопросы"" tab.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click at the ""Часто задавамые вопросы"" tab.
+","1. Page
+https://test.qa.studio/?page_id=609
+is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+24,"Testing ""Блог"" tab.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click at the ""Блог"" tab.
+","1. Page
+https://test.qa.studio/?page_id=609
+is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+25,"Testing ""О компании"" tab.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click at the ""О компании"" tab.
+","1. Page 
+https://test.qa.studio/?page_id=633
+is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+26,"Testing ""Контакты"" tab.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click at the tab ""Контакты"".
+","1. Page 
+https://test.qa.studio/?page_id=584
+is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+28,"Search button testing.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click to search button on the header of page.
+","1. Search menu is opened over the current page.
+","1. 
+",,,9,2,"Header and Footer testing",
+29,"Wish list button testing.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click to wish list button on the header of page (it is have heart form).
+","1. Page 
+https://test.qa.studio/?page_id=14
+is opened.
+","1. 
+",,,9,2,"Header and Footer testing",
+30,"Basket button testing.",,,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click to basket button on the header of the page.
+","1. Basket menu is opened over the current page.
+","1. 
+",,,9,2,"Header and Footer testing",
